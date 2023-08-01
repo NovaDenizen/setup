@@ -68,7 +68,7 @@ alias ghc='ghc -Wall'
 alias ghci='ghci -Wall'
 
 # PROFILEPATH is the PATH provided by /etc/profile
-PATH=$HOME/.cabal/bin:$PROFILEPATH
+#PATH=$HOME/.cabal/bin:$PROFILEPATH
 
 _completefvi() {
     local curw=${COMP_WORDS[COMP_CWORD]}
